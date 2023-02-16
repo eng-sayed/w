@@ -1,0 +1,31 @@
+class EndPoints {
+  static const String LOGIN = "/api/login";
+  static const String RESET_PASS = "/api/me/reset-password";
+  static const String REGISTER = "/api/register";
+  static const String ME = "/api/me";
+  static const String UPDATE_PROFILE = "/api/me/update";
+  static const String GET_BLOGS = "/api/blogs/";
+  static const String GET_BRANDS = "/api/brands/";
+  static const String GET_SERVICES = "/api/services/";
+  static const String GET_MY_CARS = "/api/cars/";
+  static const String ADD_MY_CARS = "/api/cars/create";
+  static const String GET_CAR_MODELS = "/api/models/";
+  static const String GET_BRANCHES_DROPDOWN = "/api/branches/dropdown";
+  static const String CREATE_MAIN_RESERVATION = "/api/reservations/create-main";
+  static const String GET_RESERVATION = "/api/reservations/";
+  static const String GET_REVIEWS = "/api/reviews";
+  static const String DELETE_ACCOUNT = "/api/me/delete-account";
+  static const String GET_COUNTRIES = "/api/countries/";
+  static const String GET_PROMO_CODE = "/api/promo-code/";
+  static const String GET_Setting = "/api/settings/";
+  static const String GET_MY_NOTIFICATIONS = "/api/my-notifications/";
+  static const String GET_NOTIFICATIONS = "/api/my-notifications/";
+  static const String POST_COMPLAINS = "/api/complains/create";
+  static const String FORGET_PASS = "/api/password/email";
+  static const String CHECK_CODE = "/api/password/code/check";
+  static const String RESET_PASSWORD = "/api/password/reset";
+  static const String CHECK_PROMO_CODE = "/api/promo-code/";
+  static const String GET_USER_COUNTRIES = "/api/user_countries/";
+  static const String CAR_PARTS = "/api/parts";
+  static const String BECOME_PARTNER = "/api/become-partner";
+}
